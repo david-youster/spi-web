@@ -1,0 +1,23 @@
+{
+  "name": "spi-web",
+  "version": "0.0.0",
+  "description": "Intelligence Surveilance for Raspberry Pi, webapp component.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://xdav@bitbucket.org/xdav/spi-web.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "computer",
+    "vision",
+    "opencv"
+  ],
+  "author": "David Youster",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/xdav/spi-web#readme"
+}
