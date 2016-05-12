@@ -10,7 +10,7 @@ function getNetworkIP() {
 }
 
 function onRequest(socket) {
-  console.log('Client connected...')
+  console.log(socket.remoteAddress + ' connected...')
   const timestamp = new Date().getTime()
   socket.pipe(fs.createWriteStream('images/img' + timestamp + '.jpg'))
 }
