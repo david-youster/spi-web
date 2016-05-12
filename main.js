@@ -6,7 +6,8 @@ const PORT = 8000
 
 function onRequest(socket) {
     console.log('Client connected...')
-    socket.pipe(fs.createWriteStream('img' + new Date().getTime()))
+    const timestamp = new Date().getTime()
+    socket.pipe(fs.createWriteStream('img' + timestamp + '.jpg'))
 }
 
 net.createServer(onRequest).listen(PORT, HOST)
